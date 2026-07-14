@@ -1,22 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Nforce</title>
+    <title>NFORCE</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <div class="login-box">
-        <h1>NFORCE</h1>
+<div class="app">
 
-        <input type="password" id="pin" placeholder="Enter PIN" maxlength="4">
-
-        <button onclick="checkPin()">Unlock</button>
-
-        <p id="result"></p>
+    <div class="logo">
+        🔒
     </div>
 
-    <script src="app.js"></script>
+    <h1>NFORCE</h1>
+
+    <p class="tagline">Private Space</p>
+
+    <div class="login-card">
+
+        <input 
+        type="password" 
+        id="pin" 
+        placeholder="Enter PIN"
+        maxlength="4">
+
+        <button onclick="checkPin()">
+            Unlock
+        </button>
+
+        <p id="result"></p>
+
+    </div>
+
+</div>
+
+<script src="app.js"></script>
 
 </body>
 </html>
